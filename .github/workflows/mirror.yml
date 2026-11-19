@@ -20,7 +20,7 @@ jobs:
     env:
       IMAGE_TAG: ${{ inputs.tag }}
       SOURCE_IMAGE: ghcr.io/home-assistant/home-assistant
-      DESTINATION_IMAGE: ghcr.io/cpuguy83/home-assistant-gzip-mirror
+      DESTINATION_IMAGE: ghcr.io/YOUR_GITHUB_USERNAME/home-assistant-gzip-mirror
 
     steps:
       # actions/checkout v4
